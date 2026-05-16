@@ -1,0 +1,51 @@
+.Nav-comp {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: aliceblue;
+}
+
+.ul-component li{
+  display: flex;
+  justify-content: space-between;
+
+  list-style: none;
+  font-size: 20px;
+  color: aliceblue;
+
+
+}
+
+.navlinks {
+  text-decoration: none;
+ color: aliceblue;
+
+}
+
+
+.About-p {
+  background-color: black;
+  color: aliceblue;
+}
+
+.Contact-p {
+  background-color: black;
+  color: aliceblue;
+}
+
+.Home-p {
+  background-color: black;
+  color: aliceblue;
+}
+
+.Project-p {
+  background-color: black;
+  color: aliceblue;
+}
+
+.Skill-p {
+  background-color: black;
+  color: aliceblue;
+}
