@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <div>
       <div className='Project-p'>
-       <h1>hello</h1>
+       <h1>ProjectsS</h1>
        </div>
     </div>
   )

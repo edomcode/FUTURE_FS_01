@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div>
       <div className='About-p'>
-       <h1>hello</h1>
+       <h1>AboutS</h1>
        </div>
     </div>
   )

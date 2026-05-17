@@ -7,17 +7,18 @@ export default function Nav() {
       <div className='Nav-comp'>
        <div className='nav-component'>
       
-        <h1>SafeHaven</h1>
+        <h1>Eden<span className='logo-accent'>.Y</span></h1>
       </div>
 
-      <div className='ul-component'>
-   
+      <ul className='ul-component'>
         <li><Link className='navlinks' to='/Home'>Home</Link></li>
-       <li><Link className='navlinks' to='/Contact'>Contact</Link></li>
-      <li><Link className='navlinks' to='/Skills'>Skills</Link></li>
+        <li><Link className='navlinks' to='/Contact'>Contact</Link></li>
+        <li><Link className='navlinks' to='/Skills'>Skills</Link></li>
         <li><Link className='navlinks' to='/About'>About</Link></li>
-       <li><Link className='navlinks' to='/Projects'>Projects</Link></li>
-       
+        <li><Link className='navlinks' to='/Projects'>Projects</Link></li>
+      </ul>
+      <div className='nav-btn'>
+        <button>Let's Talk</button>
       </div>
       </div>
     </div>
