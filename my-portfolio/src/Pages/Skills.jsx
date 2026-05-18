@@ -8,12 +8,10 @@ export default function Skills() {
       <div className='TEch-M'>
        <h2 className='Tech'>Technical Mastery</h2>
        <p className='pr'>Full-stack developer passionate about building scalable backend systems,
-        responsive web applications, and seamless digital experiences that solve real-world problems.
-        Experienced in designing secure RESTful APIs, managing databases, and developing modern user
-        interfaces with a strong focus on performance, usability, and clean architecture. Skilled in creating
-        efficient, maintainable, and user-centered solutions using modern web while continuously
-        learning and adapting to emerging tools and industry standards.  Dedicated to transforming ideas into
-         impactful digital products that Scombine functionality, creativity, and meaningful user experiences.</p>
+  responsive web applications, and seamless digital experiences that solve real-world problems.Experienced<br /> in designing secure RESTful APIs, managing databases, and developing modern user
+  interfaces with a strong focus on performance, usability, and clean architecture.<br />Skilled in creating efficient, maintainable, and user-centered solutions using modern web while continuously
+  learning and adapting to emerging tools and industry standards.<br />Dedicated to transforming ideas into impactful digital products that combine functionality, creativity,
+  and meaningful user experiences.</p>
       </div>
   <div className='Core-D'>
       <div className='Core'>
