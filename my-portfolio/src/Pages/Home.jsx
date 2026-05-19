@@ -10,10 +10,6 @@ export default function Home() {
       <p className='home-desc'>
         Passionate about creating technology that helps people feel supported, connected, and understood.
       </p>
-      <div className='home-cta'>
-        <button className='home-btn-primary'>View My Work</button>
-        <button className='home-btn-secondary'>Contact Me</button>
-      </div>
     </div>
   )
 }

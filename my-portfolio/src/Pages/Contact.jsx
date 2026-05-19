@@ -31,11 +31,11 @@ export default function Contact() {
           or full-stack solutions? I'm always open to collaborating on new ideas, solving technical challenges,
           and exploring opportunities where I can contribute and grow.</p>
         <div className='contact-links'>
-          <a href='mailto:you@example.com' className='contact-link'>📧 Email</a>
-          <a href='https://linkedin.com' target='_blank' rel='noreferrer' className='contact-link'>💼 LinkedIn</a>
-          <a href='https://github.com' target='_blank' rel='noreferrer' className='contact-link'>🐙 GitHub</a>
-          <a href='https://t.me' target='_blank' rel='noreferrer' className='contact-link'>✈️ Telegram</a>
-          <a href='https://wa.me' target='_blank' rel='noreferrer' className='contact-link'>💬 WhatsApp</a>
+          <a href='mailto:edenyehualashet27@gmail.com' className='contact-link'>📧 Email</a>
+          <a href='https://www.linkedin.com/in/eden-yehualashet-11644a348/' target='_blank' rel='noreferrer' className='contact-link'>💼 LinkedIn</a>
+          <a href='https://github.com/edomcode' target='_blank' rel='noreferrer' className='contact-link'>🐙 GitHub</a>
+          <a href='https://t.me/edomiyas27' target='_blank' rel='noreferrer' className='contact-link'>✈️ Telegram</a>
+          <a href='https://wa.me/251916775816' target='_blank' rel='noreferrer' className='contact-link'>💬 WhatsApp</a>
         </div>
       </div>
 
