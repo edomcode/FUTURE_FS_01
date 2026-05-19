@@ -7,20 +7,31 @@ export default function Contact() {
   const [message, setMessage] = useState('')
   const [status, setStatus] = useState('')
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
+    setStatus('Sending...')
 
-    
-    const formData = { name, email, subject, message }
-    console.log('Form submitted:', formData)
+    try {
+      const response = await fetch('http://localhost:5000/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, email, subject, message }),
+      })
 
-  
-    setStatus(`Thanks ${name || 'there'}! Your message has been captured (check console).`)
+      const data = await response.json()
+      if (!response.ok || !data.ok) {
+        throw new Error(data.error || 'Submission failed')
+      }
 
-    setName('')
-    setEmail('')
-    setSubject('')
-    setMessage('')
+      setStatus(`Thanks ${name || 'there'}! Your message was sent.`)
+      setName('')
+      setEmail('')
+      setSubject('')
+      setMessage('')
+    } catch (error) {
+      console.error('Contact submit error:', error)
+      setStatus('Sorry, there was a problem sending your message.')
+    }
   }
 
   return (

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Test",
+    "email": "test@example.com",
+    "message": "Hello from PowerShell",
+    "ts": "2026-05-19T16:25:32.952Z"
+  },
+  {
+    "name": "abyy",
+    "email": "aby@gmail.com",
+    "message": "hey ed",
+    "ts": "2026-05-19T16:31:27.072Z"
+  }
+]
