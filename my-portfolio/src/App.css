@@ -423,8 +423,65 @@
 }
 
 .Project-p {
-  background-color: black;
+  min-height: calc(100vh - 80px);
+  padding: 60px 40px;
   color: aliceblue;
+  background:
+    radial-gradient(circle at 18% 20%, rgba(124, 58, 237, 0.22), transparent 36%),
+    radial-gradient(circle at 82% 10%, rgba(168, 85, 247, 0.18), transparent 42%),
+    #0b0b0f;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-card {
+  padding: 32px;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 22px 50px rgba(0, 0, 0, 0.2);
+}
+
+.project-tag {
+  display: inline-block;
+  margin-bottom: 18px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(124, 58, 237, 0.16);
+  color: #d8d8ff;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+}
+
+.project-card h2 {
+  margin: 0 0 16px;
+  font-size: 1.9rem;
+  line-height: 1.05;
+  color: #f7f7ff;
+}
+
+.project-stack {
+  margin: 0 0 16px;
+  color: #b8b8d2;
+  font-size: 0.96rem;
+}
+
+.project-card p {
+  margin: 0 0 14px;
+  color: #d0d0df;
+  line-height: 1.8;
+}
+
+@media (max-width: 992px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .Skill-p {
