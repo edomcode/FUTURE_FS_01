@@ -10,11 +10,11 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault()
 
-    // 👇 This is how you "access" what the user typed:
+    
     const formData = { name, email, subject, message }
     console.log('Form submitted:', formData)
 
-    // TODO: send `formData` to your backend or a service like EmailJS/Formspree.
+  
     setStatus(`Thanks ${name || 'there'}! Your message has been captured (check console).`)
 
     setName('')
