@@ -47,7 +47,7 @@ export default function Contact() {
           <a href='https://www.linkedin.com/in/eden-yehualashet-11644a348/' target='_blank' rel='noreferrer' className='contact-link'>💼 LinkedIn</a>
           <a href='https://github.com/edomcode' target='_blank' rel='noreferrer' className='contact-link'>🐙 GitHub</a>
           <a href='https://t.me/edomiyas27' target='_blank' rel='noreferrer' className='contact-link'>✈️ Telegram</a>
-          <a href='https://wa.me/251916775816' target='_blank' rel='noreferrer' className='contact-link'>💬 WhatsApp</a>
+          <a href='https://wa.me/251938952148' target='_blank' rel='noreferrer' className='contact-link'>💬 WhatsApp</a>
         </div>
       </div>
 

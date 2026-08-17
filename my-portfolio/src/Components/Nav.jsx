@@ -6,7 +6,6 @@ export default function Nav() {
   const navigate = useNavigate()
   const location = useLocation()
 
-  // "Let's Talk" scrolls to contact section if on Home, else navigates to Home#contact
   const handleLetsTalk = () => {
     setIsMenuOpen(false)
     if (location.pathname === '/' || location.pathname === '/Home') {
@@ -37,7 +36,6 @@ export default function Nav() {
         <Link to='/Home' className='nav-logo'>Eden<span className='logo-accent'>.Y</span></Link>
       </div>
 
-      {/* Hamburger */}
       <button
         className={`hamburger-menu ${isMenuOpen ? 'open' : ''}`}
         onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -49,7 +47,6 @@ export default function Nav() {
         <span></span>
       </button>
 
-      {/* Desktop nav */}
       <ul className='ul-component'>
         <li><Link className={linkClass('/Home')} to='/Home'>Home</Link></li>
         <li><Link className={linkClass('/About')} to='/About'>About</Link></li>
@@ -61,7 +58,6 @@ export default function Nav() {
         <button onClick={handleLetsTalk}>Let's Talk</button>
       </div>
 
-      {/* Mobile menu */}
       <div className={`mobile-menu ${isMenuOpen ? 'active' : ''}`}>
         <Link className={mobileLinkClass('/Home')} to='/Home' onClick={() => setIsMenuOpen(false)}>Home</Link>
         <Link className={mobileLinkClass('/About')} to='/About' onClick={() => setIsMenuOpen(false)}>About</Link>

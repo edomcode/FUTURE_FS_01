@@ -1072,3 +1072,107 @@
   .big-project-card       { padding: 22px; }
   .page-header            { padding: 52px 16px 36px; }
 }
+
+/* ═══════════════════════════════════════════════════
+   TIMELINE — Experience & Education
+═══════════════════════════════════════════════════ */
+.about-timeline-section,
+.skills-timeline-section {
+  padding: 3rem 0;
+}
+
+.skills-timeline-section {
+  margin-top: 3rem;
+}
+
+.timeline-heading {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 2rem;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--purple-deep), transparent);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2.5rem;
+  padding-left: 1.75rem;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -1.9rem;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--bg-card);
+  border: 2px solid var(--border-bright);
+  flex-shrink: 0;
+}
+
+.timeline-dot--accent {
+  background: var(--purple-deep);
+  border-color: var(--purple-mid);
+  box-shadow: 0 0 10px rgba(168, 85, 247, 0.5);
+}
+
+.timeline-content {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1.25rem 1.5rem;
+  transition: border-color 0.2s;
+}
+
+.timeline-content:hover {
+  border-color: var(--border-bright);
+}
+
+.timeline-content h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0.4rem 0 0.25rem;
+}
+
+.timeline-sub {
+  font-size: 0.82rem;
+  color: var(--purple-light);
+  margin-bottom: 0.6rem;
+  font-weight: 500;
+}
+
+.timeline-content p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+  margin: 0;
+}
+
+.timeline-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: rgba(124, 58, 237, 0.18);
+  color: var(--purple-light);
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  border-radius: 20px;
+  padding: 0.2rem 0.75rem;
+}
